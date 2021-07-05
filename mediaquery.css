@@ -1,0 +1,85 @@
+@media screen and (max-width: 960px) {
+	#wrapper {
+		width: 93.75%;
+		margin: 25px auto;
+	}
+
+	#sidebar {
+		width: 100%;
+		margin: 25px 0 0;
+		float: right;
+	}
+
+	#sidebar #widget {
+		padding: 5%;
+	}
+
+	#header {
+		width: 98%;
+		height: 100%;
+	}
+
+	#header {
+		float: inherit;
+	}
+
+	#header ul {
+		width: 100%;
+	}
+
+	#header ul {
+		float: inherit;
+	}
+
+	#header ul li {
+		float: inherit;
+		margin: 0;
+	}
+
+	#header ul a {
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	#header form{
+		float: none;
+		padding: 15px;
+	}
+
+	#daftar-artikel {
+		width: 93%;
+	}
+
+	.artikel {
+		float: inherit;
+		margin: 0 auto 25px;
+		width: 100%;
+		border: 1px solid #dedede;
+		padding: 5%;
+		background: #fff;
+	}
+
+	.artikel .klik:hover {
+		margin-left: 0;
+	}
+}
+
+
+@media screen and (max-width: 460px) {
+	#wrapper #header #nav ul a {
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	#sidebar {
+		display: none;
+	}
+
+	.artikel {
+		margin: 25px auto;
+	}
+
+	.artikel img {
+		margin: -5% 0 25px -5%;
+	}
+}
